@@ -1,0 +1,13 @@
+skill_id,role,skill_name,target_score,prerequisites
+FE_HTML,Frontend Developer,HTML,70,
+FE_CSS,Frontend Developer,CSS,75,FE_HTML
+FE_JS,Frontend Developer,JavaScript,80,FE_HTML
+FE_RESP,Frontend Developer,Responsive Design,70,FE_CSS
+FE_GIT,Frontend Developer,Git,65,
+FE_REACT,Frontend Developer,React Basics,70,FE_JS
+DA_EXCEL,Data Analyst,Excel,70,
+DA_SQL,Data Analyst,SQL,80,
+DA_STATS,Data Analyst,Statistics,75,
+DA_VIZ,Data Analyst,Data Visualization,70,DA_EXCEL|DA_STATS
+DA_PANDAS,Data Analyst,Python & Pandas,65,
+DA_CLEAN,Data Analyst,Data Cleaning,70,DA_EXCEL
