@@ -1,0 +1,34 @@
+skill_id,role,skill_name,target_score,prerequisites
+FE_HTML,Frontend Developer,HTML,70,
+FE_CSS,Frontend Developer,CSS,75,FE_HTML
+FE_JS,Frontend Developer,JavaScript,80,FE_HTML
+FE_RESP,Frontend Developer,Responsive Design,70,FE_CSS
+FE_GIT,Frontend Developer,Git,65,
+FE_REACT,Frontend Developer,React Basics,70,FE_JS
+DA_EXCEL,Data Analyst,Excel,70,
+DA_SQL,Data Analyst,SQL,80,
+DA_STATS,Data Analyst,Statistics,75,
+DA_VIZ,Data Analyst,Data Visualization,70,DA_EXCEL|DA_STATS
+DA_PANDAS,Data Analyst,Python & Pandas,65,
+DA_CLEAN,Data Analyst,Data Cleaning,70,DA_EXCEL
+BACKE_01,Backend Developer,API Design,70,
+BACKE_02,Backend Developer,Databases,75,BACKE_01
+BACKE_03,Backend Developer,Server Security,80,BACKE_02
+FULLS_01,Full-Stack Developer,Frontend Integration,70,
+FULLS_02,Full-Stack Developer,Backend APIs,75,FULLS_01
+FULLS_03,Full-Stack Developer,Full-Stack Deployment,80,FULLS_02
+DEVOP_01,DevOps Engineer,CI/CD,70,
+DEVOP_02,DevOps Engineer,Containers,75,DEVOP_01
+DEVOP_03,DevOps Engineer,Infrastructure as Code,80,DEVOP_02
+UIUXD_01,UI/UX Designer,User Research,70,
+UIUXD_02,UI/UX Designer,Wireframing,75,UIUXD_01
+UIUXD_03,UI/UX Designer,Usability Testing,80,UIUXD_02
+MACHI_01,Machine Learning Engineer,ML Fundamentals,70,
+MACHI_02,Machine Learning Engineer,Model Evaluation,75,MACHI_01
+MACHI_03,Machine Learning Engineer,ML Deployment,80,MACHI_02
+CLOUD_01,Cloud Architect,Cloud Fundamentals,70,
+CLOUD_02,Cloud Architect,Cloud Networking,75,CLOUD_01
+CLOUD_03,Cloud Architect,Cloud Architecture,80,CLOUD_02
+CYBER_01,Cybersecurity Analyst,Security Fundamentals,70,
+CYBER_02,Cybersecurity Analyst,Threat Analysis,75,CYBER_01
+CYBER_03,Cybersecurity Analyst,Incident Response,80,CYBER_02

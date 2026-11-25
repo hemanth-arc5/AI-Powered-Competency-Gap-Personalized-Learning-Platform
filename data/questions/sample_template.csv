@@ -1,0 +1,4 @@
+question_id,skill_id,difficulty,question,options,correct_answer,explanation
+BACKEND_API_E01,BACK_01,easy,What does an API endpoint represent?,A specific resource or operation|A database backup|A CSS selector|A server password,A,An endpoint identifies a resource or operation exposed by an API.
+BACKEND_API_H01,BACK_01,hard,Which practice improves API reliability?,Validate input and return consistent errors|Ignore malformed requests|Expose stack traces|Remove request limits,A,Validation and consistent error handling improve reliability.
+BACKEND_API_A01,BACK_01,advanced,How should a team evolve a public API without breaking clients?,Use versioning and a documented deprecation period|Change response fields without notice|Delete old endpoints immediately|Disable compatibility tests,A,Versioning and deprecation policies manage compatibility.
